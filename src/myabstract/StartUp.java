@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-package inheritanceproject;
 
-import myabstract.SalariedEmployee;
+package myabstract;
 
 /**
  *
  * @author neilkenney
  */
-public class InheritanceProject {
-
-    
-
+public class StartUp {
     public static void main(String[] args) {
         
         SalariedEmployee s1 = new SalariedEmployee();
@@ -30,4 +21,5 @@ public class InheritanceProject {
         
         System.out.println("Employee: " + s1.getEmployeeName() + " ID: " + s1.getEmployeeIdNumber() + " Department" + s1.getDepartmentNumber() + " Weekly Pay: " + s1.getWeeklySalaryPay() + " Weekly Retirement Contribution: " + s1.calculateRetirementContribution());
     }
+    
 }

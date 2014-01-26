@@ -5,8 +5,8 @@ package my.concrete;
 
 public class HourlyEmployee extends Employee{
     
-    public double hoursWorked;
-    public double hourlyWage;
+    private double hoursWorked;
+    private double hourlyWage;
     
     
     public double getWeeklyPay(){
