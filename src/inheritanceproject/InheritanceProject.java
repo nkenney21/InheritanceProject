@@ -6,17 +6,26 @@
 
 package inheritanceproject;
 
+import my.concrete.HourlyEmployee;
+
 /**
  *
  * @author neilkenney
  */
 public class InheritanceProject {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        HourlyEmployee p1 = new HourlyEmployee();
+        
+        p1.employeeIdNumber = (123);
+        p1.departmentNumber = (1);
+        p1.employeeName = "Greg";
+        p1.hourlyWage = (15);
+        p1.hoursWorked = (40);
+        
+        System.out.println(p1.getWeeklyPay());
     }
     
 }
