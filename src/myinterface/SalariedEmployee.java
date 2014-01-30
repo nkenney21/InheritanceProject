@@ -17,6 +17,46 @@ public class SalariedEmployee implements Employee {
     private int departmentNumber;
     private double retirementContributionPercent;
 
+    public double getYearlySalary() {
+        return yearlySalary;
+    }
+
+    public void setYearlySalary(double yearlySalary) {
+        this.yearlySalary = yearlySalary;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
+    }
+
+    public int getEmployeeID() {
+        return employeeID;
+    }
+
+    public void setEmployeeID(int employeeID) {
+        this.employeeID = employeeID;
+    }
+
+    public int getDepartmentNumber() {
+        return departmentNumber;
+    }
+
+    public void setDepartmentNumber(int departmentNumber) {
+        this.departmentNumber = departmentNumber;
+    }
+
+    public double getRetirementContributionPercent() {
+        return retirementContributionPercent;
+    }
+
+    public void setRetirementContributionPercent(double retirementContributionPercent) {
+        this.retirementContributionPercent = retirementContributionPercent;
+    }
+
     @Override
     public double calculateRetirementContribution() {
         return weeklyPay() * (retirementContributionPercent / 100  );
