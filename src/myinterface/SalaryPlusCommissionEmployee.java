@@ -10,5 +10,21 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee{
     public double commissionedPay(){
         return commissionedSale / (commissionPercent/ 100);
     }
+
+    public double getCommissionPercent() {
+        return commissionPercent;
+    }
+
+    public void setCommissionPercent(double commissionPercent) {
+        this.commissionPercent = commissionPercent;
+    }
+
+    public double getCommissionedSale() {
+        return commissionedSale;
+    }
+
+    public void setCommissionedSale(double commissionedSale) {
+        this.commissionedSale = commissionedSale;
+    }
     
 }
