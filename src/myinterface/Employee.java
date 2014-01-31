@@ -7,6 +7,7 @@ public interface Employee {
     
     
     public abstract double calculateRetirementContribution();
-    public abstract double weeklyPay();
+
+    public abstract double calculateWeeklyPay();
     
 }

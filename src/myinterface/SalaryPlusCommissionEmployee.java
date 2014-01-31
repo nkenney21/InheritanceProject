@@ -7,7 +7,7 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee{
      private double commissionPercent;
     private double commissionedSale;
     
-    public double commissionedPay(){
+    public double calculateCommissionedPay(){
         return commissionedSale / (commissionPercent/ 100);
     }
 

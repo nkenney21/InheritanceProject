@@ -55,11 +55,11 @@ public class HourlyEmployee implements Employee {
 
     @Override
     public double calculateRetirementContribution() {
-       return weeklyPay() * (retirementContributionPercent / 100  );
+       return calculateWeeklyPay() * (retirementContributionPercent / 100  );
     }
 
     @Override
-    public double weeklyPay() {
+    public double calculateWeeklyPay() {
         return hoursWorked * hourlyWage;
     }
     

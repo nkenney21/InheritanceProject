@@ -30,7 +30,7 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee{
         this.commissionedSale = commissionedSale;
     }
     
-    public double commissionedPay(){
+    public double calculateCommissionedPay(){
         return commissionedSale / (commissionPercent/ 100);
     }
     
